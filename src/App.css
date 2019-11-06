@@ -37,16 +37,32 @@ a.navColor {
     color: '#fff';
 }
 
-.ShoppingMallContainer{
-    height:588px;
+.ShoppingMallContainer {
+    height: 588px;
 }
 
-.ShoppingMallRight{
+.ShoppingMallRight {
     position: fixed;
-    top:80px;
-    right:20px;
+    top: 80px;
+    right: 20px;
 }
 
-.ant-modal-title{
+.ant-modal-title {
     text-align: center;
+}
+
+.IconFontStyle {
+    position: absolute;
+    left: 80px;
+    top: -39px;
+    font-size: 20px;
+}
+
+.ant-tooltip-inner {
+    background-color: #fff;
+    color: #555;
+}
+
+.ant-tooltip-content .ant-tooltip-arrow::before {
+    background-color: #fff;
 }
